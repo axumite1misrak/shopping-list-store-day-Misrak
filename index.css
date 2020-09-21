@@ -3,12 +3,13 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 85%;
   margin: 0 auto;
 }
 
-button, input[type="text"] {
+button,
+input[type="text"] {
   padding: 5px;
 }
 
@@ -50,4 +51,7 @@ button:hover {
 
 .shopping-item__checked {
   text-decoration: line-through;
+}
+.js-item-element .js-shopping-item-edit {
+  padding-bottom: 10px;
 }
