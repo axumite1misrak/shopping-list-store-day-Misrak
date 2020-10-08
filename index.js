@@ -203,14 +203,15 @@ const handleToggleFilterClick = function () {
  * "check" and "delete" buttons for individual
  * shopping list items.
  */
-const handleShoppingList = function () {
+
+const handleShoppingList = function () {};
+
+// when the page loads, call `handleShoppingList`
+$(function () {
   render();
   handleNewItemSubmit();
   handleItemCheckClicked();
   handleDeleteItemClicked();
   handleToggleFilterClick();
   handleEdit();
-};
-
-// when the page loads, call `handleShoppingList`
-$(handleShoppingList);
+});
